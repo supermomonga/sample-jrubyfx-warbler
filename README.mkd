@@ -1,0 +1,13 @@
+
+## Run
+
+Please ensure that `ruby` is linked to jruby.
+
+`ruby ./app/app.rb`
+
+## Packaging and run jar file
+
+```sh
+bundle exec warble jar
+java -jar ./sampleapp.jar
+```
